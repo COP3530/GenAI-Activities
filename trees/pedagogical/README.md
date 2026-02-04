@@ -1,7 +1,7 @@
-# Pedagogical Concept Activity
+# Pedagogical Concept Activity: 
 
 ## Overview
-In this activity, students are given a computer science concept (in this activity, trees) by their instructor. They use an AI tool like ChatGPT to explain the concept. Then, the instructor intentionally provides a misleading or partially incorrect statement, and students must identify, explain, and correct the errors by using the AI explanation and finding credible, external sources to back up its claims with evidence.
+In this activity, students are working with a Tree Data Structure. They use an AI tool like ChatGPT to explain the concept. Then, the instructor intentionally provides a misleading or partially incorrect statement, and students must identify, explain, and correct the errors by using the AI explanation and finding credible, external sources to back up its claims with evidence.
 
 **The goal is to develop:**
 - Critical thinking and error detection
@@ -21,7 +21,7 @@ By the end of this activity, students will be able to:
 - Practice verification against course knowledge and definitions
 
 ## Instructor Setup
-Choose a concept that students think they understand but often confuse. The prompt should be deliberately flawed in a minor way and is designed to trigger misconceptions. Good examples include:
+Choose a Tree concept that students think they understand but often confuse. The prompt should be deliberately flawed in a minor way and is designed to trigger misconceptions. Good examples include:
 
 ### Misconceptions:
 
