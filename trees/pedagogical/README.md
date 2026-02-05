@@ -87,7 +87,7 @@ Mentimeter: Under what conditions could this statement actually be true? Is this
 
 ---
 
-## **Example**
+## **Activity Example**
 
 **Concept:**  
 Explain tree data structures in computer science, including their properties and use cases.
