@@ -1,118 +1,103 @@
-# Pedagogical Concept Activity: 
+## **Concept Verification with AI-Assisted Learning**
 
-## Overview
-In this activity, students are working with a Tree Data Structure. They use an AI tool like ChatGPT to explain the concept. Then, the instructor intentionally provides a misleading or partially incorrect statement, and students must identify, explain, and correct the errors by using the AI explanation and finding credible, external sources to back up its claims with evidence.
+### **Purpose**
 
-**The goal is to develop:**
-- Critical thinking and error detection
-- Responsible and informed use of AI tools
-- Correct any common misunderstandings about topics that may arise
+Today, we are practicing critical thinking and responsible AI use through binary search trees.  
+The goal is to see how AI-generated explanations may miss some intricacies about concepts themselves so while it’s helpful to use AI to explain topics, there may be some missing elements. 
 
-## Learning Objectives
-By the end of this activity, students will be able to:
-- Differentiate between tree structures
-  - Binary Tree
-  - Binary Search Tree (BST)
-- Correctly define and apply structural properties
-  - Full vs. complete vs. perfect binary trees
-  - Tree height
-  - Relationship between tree height and time complexity (e.g., O(log n) vs O(n))
-- Develop AI literacy
-- Practice verification against course knowledge and definitions
+You will use an AI tool to explain a specific computer science concept about binary search trees. Then provided a deliberately flawed statement by your instructor, your task is to verify, correct, and justify your understanding by searching the web and using definitions and credible sources and coming up with examples to prove the flawed statement wrong.
 
-## Instructor Setup
-Choose a Tree concept that students think they understand but often confuse. The prompt should be deliberately flawed in a minor way and is designed to trigger misconceptions. Good examples include:
+The goal is to learn how to evaluate AI output carefully and thoughtfully.
 
-### Misconceptions:
+---
 
-**All nodes must have 2 children**
-> "In a properly structured binary tree, internal nodes are expected to have two children to preserve the hierarchical nature of the tree."
+## **Initial Prompt**
 
-**Trees are always balanced**
-> "Binary trees naturally remain balanced as elements are added, since values are distributed across multiple levels"
+Run this prompt individually:
 
-**BSTs are more efficient than linear structures**
-> "Binary search trees are inherently more efficient than linear data structures due to their hierarchical organization."
+Explain the following computer science concept: Explain tree data structures in computer science, including their properties and use cases.
 
-**A binary tree and a binary search tree are basically the same thing**
-> "Binary trees and binary search trees differ mainly in terminology rather than structure or behavior."
+Read the AI’s explanation carefully.
 
-**A full tree is always perfect**
-> "A full binary tree satisfies the conditions of a perfect binary tree."
+Mentimeter: What claims did the AI make about the tree data structure? Did the AI specify any assumptions (balance, insertion order, tree type)?
 
-**Leaves are always at the same depth in a binary tree**
-> "Leaves in a binary tree generally occur at the same depth because the tree expands downward in levels."
+---
 
-**Binary trees must be symmetrical**
-> "Binary trees are typically symmetrical, with left and right subtrees mirroring each other."
+## **Instructor Statement**
 
-**Searching a tree is always O(log n)**
-> "Searching a tree structure runs in O(log n) time due to the logarithmic growth of tree height."
+Your instructor will now provide a misleading or partially incorrect statement about the same concept.
 
-**In-order traversal of any tree produces sorted output.**
-> "In-order traversal produces sorted output because it visits nodes in a logical left-to-right sequence."
+Example statements:
 
-**Trees must contain unique values.**
-> "Tree structures require unique values to avoid ambiguity during insertion and traversal."
+* “Searching a tree structure runs in O(log n) time due to the logarithmic growth of tree height.”  
+* “A full binary tree is always perfect.”  
+* “Removing a node from a tree is a straightforward operation that does not significantly affect the overall structure.”
 
-**Removing a node is simple—just delete it.**
-> "Removing a node from a tree is a straightforward operation that does not significantly affect the overall structure."
+---
 
-## Student Instructions
-1. You are given the following instructor-provided concept: [concept]
-2. Prompt the AI to give you an explanation about said concept
-3. Read the AI's explanation carefully
-4. The instructor will provide a misleading statement about the concept
-5. For each issue:
-   - Quote or paraphrase the problematic statement
-   - Identify the problematic part of the statement
-   - Explain why it is incorrect definitions, examples, and evidence
-   - Provide a corrected statement along with your explanation
-6. Share with your peers around you if you came to the same conclusion 
-7. Submit a short written response to the assignment
+## **Student Task**
 
-## Key Concepts Students Are Expected to Use
+In the instructor’s statement:
 
-### Binary Tree Classifications
+1. Quote or paraphrase the problematic part  
+2. Identify what is incorrect or misleading  
+3. Explain why it is incorrect without using AI through:  
+   * Definitions  
+   * Examples or counterexamples  
+     1. What is the simplest tree that would prove the statement to be false  
+   * Evidence from course material or credible external sources  
+4. Provide a corrected statement that accurately represents the concept
 
-| Term | Definition |
-|------|------------|
-| Full | Every node has 0 or 2 children |
-| Complete | All levels filled except possibly last, filled left to right |
-| Perfect | All levels completely filled |
-| BST | Not necessarily complete |
+Share your reasoning with peers nearby and see if you identify the same issues.
 
-### Height and Time Complexity
-- A tree has height O(log n) only if it is balanced
-- A BST can degrade to height O(n)
-- log n comes from branching, not from "being just a tree"
+Mentimeter: Under what conditions could this statement actually be true? Is this statement about all trees, or a specific kind of tree?
 
-## Example
+---
 
-**Misleading statement:** Operations on a binary tree are always O(log n) due to the tree's level-based structure and branching.
+## **Reflection Questions**
 
-**Why this is incorrect:**
-A binary tree does not guarantee logarithmic performance. Only balanced trees (such as AVL trees or Red-Black trees) ensure O(log n) height. A binary tree (like a skewed tree) can degrade into a linear structure, causing operations like search, insert, or delete to take O(n) time.
+*Submit to an in class participation assignment or as a mentimeter*
 
-**Corrected explanation:**
-Time complexity in a binary tree depends on its height. Balanced trees have height O(log n), leading to O(log n) operations, while unbalanced trees could have height O(n), resulting in linear-time operations. Therefore, O(log n) performance is not guaranteed unless the tree maintains balance.
+* Did the AI explanation help you catch the error, or did it reinforce it?  
+* Which definition or property was most important in identifying the mistake?  
+* How could the original AI prompt be improved to reduce ambiguity or oversimplification?
 
-## Pedagogical Rationale
-This activity targets a whole conceptual understanding of the topic instead of surface recall or overgeneralizations.
+---
 
-Students often overgeneralize properties (e.g., "trees = log n" or "ordered = sorted")
+## **If Time Allows**
 
-AI responses amplify this problem by:
-- Sounding authoritative while providing oversimplified statements
-- Blending correct terms with incorrect reasoning
+* Rewrite your original AI prompt to request a more precise and rigorous explanation  
+* Compare AI explanations with classmates:  
+  * What differed?  
+  * Which prompt produced the clearest result?  
+* Explore other misconceptions
 
-To ensure that they have the correct understanding of the topic, students must:
-- Apply definitions
-- Defend their reasoning
-- Come up with their own examples that disproves the given misleading statement
+---
 
-This aligns with constructivist learning and supports metacognition as students think about how and why they know something is correct.
+## **\[FOR INSTRUCTOR\]**
 
-## If Time Allows:
-- Have students rewrite the AI prompt to get a more clear, extensive explanation about the concept 
-- Compare AI responses between each other (students) to see how answers can differ based on the prompt provided
+## **Other Possible Misconceptions**
+
+* In a properly structured binary tree, internal nodes are expected to have two children to preserve the hierarchical nature of the tree.  
+* Binary trees naturally remain balanced as elements are added, since values are distributed across multiple levels.  
+* Binary search trees are inherently more efficient than linear data structures due to their hierarchical organization.  
+* Binary trees and binary search trees differ mainly in terminology rather than structure or behavior.  
+* In-order traversal produces sorted output because it visits nodes in a logical left-to-right sequence.  
+* Tree structures require unique values to avoid ambiguity during insertion and traversal.
+
+---
+
+## **Example**
+
+**Concept:**  
+Explain tree data structures in computer science, including their properties and use cases.
+
+**Misleading statement:**  
+Searching a tree structure always runs in O(log n) time due to its hierarchical organization.
+
+**Why this is incorrect:**  
+A tree does not guarantee logarithmic performance. If the tree is unbalanced, its height becomes O(n). In such cases, operations like search, insertion, or deletion take linear time. For example, if we have a right skewed tree like 1-\> 2-\> 3 \-\> 4 \-\> 5, then searching for the value 5 requires visiting every node.
+
+**Corrected explanation:**  
+Time complexity in tree-based structures depends on height. Balanced trees have height O(log n), leading to efficient operations. Unbalanced trees may degrade to linear performance. Therefore, O(log n) time is not guaranteed unless balance is enforced.
+
