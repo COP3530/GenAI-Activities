@@ -1,7 +1,7 @@
 ## **Tree Concepts Learning and Verification**
 
 ## Placement in Course Workflow
-Students are familiar with Binary Search Tree Insertion and Traversals.
+Students are familiar with Tree Terminology and structural and semantic properties.
 
 ## Learning Objectives
 Practice Binary Search Tree (BST) concepts and analyze prompts.
@@ -21,22 +21,22 @@ The goal is to learn how to evaluate AI output carefully and thoughtfully.
 
 Run this prompt individually:
 
-Explain the following computer science concept: Explain tree data structures in computer science, including their properties and use cases.
+```Explain the following computer science concept: tree data structures in computer science, including their properties and use cases.```
 
 Read the AI’s explanation carefully.
 
-Mentimeter: What claims did the AI make about the tree data structure? Did the AI specify any assumptions (balance, insertion order, tree type)?
+Reflection Question: What claims did the AI make about the tree data structure? Did the AI specify any assumptions (balance, insertion order, tree type)?
 
 ---
 
 ### Step 2 - **Instructor Statement**
 
-Your instructor will now provide a misleading or partially incorrect statement about the same concept.
+Your instructor will now provide a misleading or partially incorrect statement about trees.
 
 Example statements:
 
-* “Searching a tree structure runs in O(log n) time due to the logarithmic growth of tree height.”  
-* “A full binary tree is always perfect.”  
+* “Searching a full tree structure runs in O(log n) time due to the logarithmic growth of a full tree height.”  
+* “A full binary tree is always complete.”  
 * “Removing a node from a tree is a straightforward operation that does not significantly affect the overall structure.”
 
 ---
@@ -56,13 +56,11 @@ In the instructor’s statement:
 
 Share your reasoning with peers nearby and see if you identify the same issues.
 
-Mentimeter: Under what conditions could this statement actually be true? Is this statement about all trees, or a specific kind of tree?
+Reflection Question: Under what conditions could this statement actually be true? Is this statement about all trees, or a specific kind of tree?
 
 ---
 
-### Step 4 - **Reflection Questions**
-
-*Submit to an in class participation assignment or as a mentimeter*
+### Step 4 - **Survey Questions on Canvas for Students (Optional)**
 
 * Did the AI explanation help you catch the error, or did it reinforce it?  
 * Which definition or property was most important in identifying the mistake?  
@@ -70,7 +68,7 @@ Mentimeter: Under what conditions could this statement actually be true? Is this
 
 ---
 
-### Step 5 - **If Time Allows**
+### Step 5 - **If Time Permits**
 
 * Rewrite your original AI prompt to request a more precise and rigorous explanation  
 * Compare AI explanations with classmates:  
@@ -80,30 +78,29 @@ Mentimeter: Under what conditions could this statement actually be true? Is this
 
 ---
 
-## **\[FOR INSTRUCTOR\]**
+## **[Notes for Instructors]**
 
-## **Other Possible Misconceptions**
+### **Other Possible Misconceptions**
 
 * In a properly structured binary tree, internal nodes are expected to have two children to preserve the hierarchical nature of the tree.  
 * Binary trees naturally remain balanced as elements are added, since values are distributed across multiple levels.  
 * Binary search trees are inherently more efficient than linear data structures due to their hierarchical organization.  
-* Binary trees and binary search trees differ mainly in terminology rather than structure or behavior.  
-* In-order traversal produces sorted output because it visits nodes in a logical left-to-right sequence.  
+* In-order traversal of a binary tree produces sorted output because it visits nodes in a logical left-to-right sequence.  
 * Tree structures require unique values to avoid ambiguity during insertion and traversal.
 
 ---
 
-## **Activity Example**
+### **Activity Example**
 
 **Concept:**  
 Explain tree data structures in computer science, including their properties and use cases.
 
 **Misleading statement:**  
-Searching a tree structure always runs in O(log n) time due to its hierarchical organization.
+Searching a full tree structure runs in O(log n) time due to the logarithmic growth of a full tree height.
 
 **Why this is incorrect:**  
-A tree does not guarantee logarithmic performance. If the tree is unbalanced, its height becomes O(n). In such cases, operations like search, insertion, or deletion take linear time. For example, if we have a right skewed tree like 1-\> 2-\> 3 \-\> 4 \-\> 5, then searching for the value 5 requires visiting every node.
+A full tree does not guarantee logarithmic performance. If the full tree is unbalanced, its height becomes O(n) as it can skew towards left or right. In such cases, operations like search, insertion, or deletion take linear time. For example, if we have a right skewed binary search full tree with these elements inserted: `2, 1, 5, 3, 7, 6, 8` then searching for the value 9 requires visiting a tree of height = 4 and not log n where n is number of nodes, i.e., 7 in this case.
 
 **Corrected explanation:**  
-Time complexity in tree-based structures depends on height. Balanced trees have height O(log n), leading to efficient operations. Unbalanced trees may degrade to linear performance. Therefore, O(log n) time is not guaranteed unless balance is enforced.
+Time complexity in tree-based structures depends on height. Balanced trees have height O(log n), leading to efficient operations. Unbalanced trees like full binary trees may degrade to linear performance. Therefore, O(log n) time is not guaranteed unless balance is enforced.
 
