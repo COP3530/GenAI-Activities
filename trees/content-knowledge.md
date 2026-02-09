@@ -1,9 +1,15 @@
-## **Concept Verification with AI-Assisted Learning**
+## **Tree Concepts Learning and Verification**
 
-### **Purpose**
+## Placement in Course Workflow
+Students are familiar with Binary Search Tree Insertion and Traversals.
 
-Today, we are practicing critical thinking and responsible AI use through binary search trees.  
-The goal is to see how AI-generated explanations may miss some intricacies about concepts themselves so while it’s helpful to use AI to explain topics, there may be some missing elements. 
+## Learning Objectives
+Practice Binary Search Tree (BST) concepts and analyze prompts.
+
+## Goal
+Develop critical thinking and responsible AI use through binary search trees.  The goal is to see how AI-generated explanations may miss some intricacies about concepts themselves so while it’s helpful to use AI to explain topics, there may be some missing elements. 
+
+## Tasks
 
 You will use an AI tool to explain a specific computer science concept about binary search trees. Then provided a deliberately flawed statement by your instructor, your task is to verify, correct, and justify your understanding by searching the web and using definitions and credible sources and coming up with examples to prove the flawed statement wrong.
 
@@ -11,7 +17,7 @@ The goal is to learn how to evaluate AI output carefully and thoughtfully.
 
 ---
 
-## **Initial Prompt**
+### Step 1 - **Initial Prompt**
 
 Run this prompt individually:
 
@@ -23,7 +29,7 @@ Mentimeter: What claims did the AI make about the tree data structure? Did the A
 
 ---
 
-## **Instructor Statement**
+### Step 2 - **Instructor Statement**
 
 Your instructor will now provide a misleading or partially incorrect statement about the same concept.
 
@@ -35,7 +41,7 @@ Example statements:
 
 ---
 
-## **Student Task**
+### Step 3 - **Student Task**
 
 In the instructor’s statement:
 
@@ -54,7 +60,7 @@ Mentimeter: Under what conditions could this statement actually be true? Is this
 
 ---
 
-## **Reflection Questions**
+### Step 4 - **Reflection Questions**
 
 *Submit to an in class participation assignment or as a mentimeter*
 
@@ -64,7 +70,7 @@ Mentimeter: Under what conditions could this statement actually be true? Is this
 
 ---
 
-## **If Time Allows**
+### Step 5 - **If Time Allows**
 
 * Rewrite your original AI prompt to request a more precise and rigorous explanation  
 * Compare AI explanations with classmates:  
