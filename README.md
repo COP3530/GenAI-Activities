@@ -14,15 +14,12 @@ Teaches prompt engineering through binary tree construction. Students iterativel
 Connects BST traversals to digital accessibility. Students build trees, use an LLM to generate alt-text descriptions based on different traversals, then exchange descriptions with a partner to reconstruct each other's trees — highlighting the importance of clear, complete textual representations.
 
 ## Authors
-
-- Amanpreet Kapoor
 - Clarissa Cheung
 - Sampada Sharma
+- Amanpreet Kapoor
 
 ## License
-
 This project is licensed under [CC0 1.0 Universal](LICENSE).
 
 ## Contact
-
 Amanpreet Kapoor — [kapooramanpreet@ufl.edu](mailto:kapooramanpreet@ufl.edu)
