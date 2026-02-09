@@ -27,15 +27,15 @@ Alt text is used by:
 - Search engines to understand images
 
 Good alt text balances:
-- **Completeness** — all relevant structural information
-- **Conciseness** — no unnecessary detail
+- **Completeness** - all relevant structural information
+- **Conciseness** - no unnecessary detail
 
 Guiding question:
 > *“If someone cannot see this image, what do they need to know?”*
 
 ---
 
-## Step 1 - Build Your Tree (Work Individually)
+### Step 1 - Build Your Tree (Work Individually)
 
 1. Choose **7 distinct integers**.
 2. On paper, insert them into an empty **Binary Search Tree** in the order you choose.
@@ -43,7 +43,7 @@ Guiding question:
 
 ---
 
-## Step 2 - Choose Traversals (With a Partner)
+### Step 2 - Choose Traversals (With a Partner)
 
 Pair up with your neighbour, and each partner must distinctly choose **one** of the following traversals:
 
@@ -54,7 +54,7 @@ Pair up with your neighbour, and each partner must distinctly choose **one** of 
 
 ---
 
-## Step 3 - Prompt an LLM to Generate Alt Text
+### Step 3 - Prompt an LLM to Generate Alt Text
 
 1. Go to the NavigatorAI Chatbot or a LLM chatbot e.g. ChatGPT, Claude, Gemini, etc.:  
    https://it.ufl.edu/ai/navigator-chat/
@@ -72,7 +72,7 @@ Refine your prompt if the output is unclear or ambiguous.
 
 ---
 
-## Step 4 - Partner Exchange & Reconstruction
+### Step 4 - Partner Exchange & Reconstruction
 
 1. Do **not** show your tree.
 2. Read your alt text aloud to your partner.
@@ -82,7 +82,7 @@ Refine your prompt if the output is unclear or ambiguous.
 
 ---
 
-## Step 5 - Reflection
+### Step 5 - Reflection
 
 Discuss:
 - Was the description easy to follow?
@@ -92,12 +92,13 @@ Discuss:
 
 ---
 
-## Step 6 - Bonus
+### Step 6 - Bonus
 
 Write a program that automatically generates alt text for a Binary Search Tree using a specified traversal.
 
+---
 
-## Step 7 - Survey Questions on Canvas for Students (Optional)
+### Step 7 - Survey Questions on Canvas for Students (Optional)
 
 - Who was your partner?
 - Which model did you select on Navigator? If you used an external tool - e.g., ChatGPT, Gemini - state the tool and why did you chose it over Navigator?
@@ -112,5 +113,5 @@ Write a program that automatically generates alt text for a Binary Search Tree u
     - I had little or no understanding of alt-text before and still feel unsure, 
     - I had little or no understanding of alt-text before and now have a basic understanding
     - I had some understanding of alt-text before and now I understand it even better
-    - I already knew how alt-text work before this activity and did not gain anything new>
+    - I already knew how alt-text work before this activity and did not gain anything new
 - Reflect on your interaction with the chatbot and what you learned about accessibility.
