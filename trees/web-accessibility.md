@@ -32,7 +32,7 @@ Guiding question:
 
 ---
 
-## Step 1 — Build Your Tree (Work Individually)
+## Step 1 - Build Your Tree (Work Individually)
 
 1. Choose **7 distinct integers**.
 2. On paper, insert them into an empty **Binary Search Tree** in the order you choose.
@@ -40,7 +40,7 @@ Guiding question:
 
 ---
 
-## Step 2 — Choose Traversals (With a Partner)
+## Step 2 - Choose Traversals (With a Partner)
 
 Pair up with your neighbour, and each partner must distinctly choose **one** of the following traversals:
 
@@ -51,7 +51,7 @@ Pair up with your neighbour, and each partner must distinctly choose **one** of 
 
 ---
 
-## Step 3 — Prompt an LLM to Generate Alt Text
+## Step 3 - Prompt an LLM to Generate Alt Text
 
 1. Go to the NavigatorAI Chatbot or a LLM chatbot e.g. ChatGPT, Claude, Gemini, etc.:  
    https://it.ufl.edu/ai/navigator-chat/
@@ -69,7 +69,7 @@ Refine your prompt if the output is unclear or ambiguous.
 
 ---
 
-## Step 4 — Partner Exchange & Reconstruction
+## Step 4 - Partner Exchange & Reconstruction
 
 1. Do **not** show your tree.
 2. Read your alt text aloud to your partner.
@@ -79,7 +79,7 @@ Refine your prompt if the output is unclear or ambiguous.
 
 ---
 
-## Step 5 — Reflection
+## Step 5 - Reflection
 
 Discuss:
 - Was the description easy to follow?
@@ -89,7 +89,7 @@ Discuss:
 
 ---
 
-## Step 6 — Bonus
+## Step 6 - Bonus
 
 Write a program that automatically generates alt text for a Binary Search Tree using a specified traversal.
 
