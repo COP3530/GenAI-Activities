@@ -6,6 +6,9 @@ Students are familiar with Binary Search Tree Insertion and Traversals.
 ## Learning Objectives
 Practice Binary Search Tree (BST) traversals, explore how prompt wording affects LLM output, and understand why clear alt-text matters for accessibility.
 
+
+## Tasks
+
 In this activity, you will:
 - Build a Binary Search Tree
 - Use an LLM to generate a traversal-based description (alt text) of your tree
