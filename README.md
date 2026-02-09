@@ -1,6 +1,6 @@
-# GenAI Activities
+# GenAI Activities for Data Structures & Algorithms
 
-A collection of classroom activities that integrate Generative AI into computing education. These activities use **tree data structures** as the subject matter to teach students critical thinking, effective prompting, web-accessibility, and responsible AI use.
+A collection of classroom activities that integrate Generative AI into Data Structures & Algorithms courses. These activities use **tree data structures** as the subject matter to teach students critical thinking, effective prompting, web-accessibility, and responsible AI use.
 
 ## Activities
 
