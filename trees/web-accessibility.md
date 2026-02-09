@@ -61,7 +61,7 @@ Pair up with your neighbour, and each partner must distinctly choose **one** of 
 2. Select any model.
 3. Use a prompt similar to:
 
-```
+```tsx
 I have a Binary Search Tree built from these values inserted in the following order:
 [list your numbers in insertion order].
 

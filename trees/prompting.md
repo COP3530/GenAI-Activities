@@ -174,6 +174,8 @@ Return ASCII diagram only.
 2. Which prompt left the fewest decisions to the AI?
 3. What single constraint made the biggest difference in reducing ambiguity?
 
+---
+
 ### Step 9 - Survey Questions on Canvas for Students (Optional)
 
 - Who was your partner?
